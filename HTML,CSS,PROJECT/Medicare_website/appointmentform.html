@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="apptfrm.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+<script>
+    function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("FILL OUT THE FIELDS");
+    return false;
+  }
+}
+</script>
+    </head>
+    <body>
+        <h1>DOCTOR APPOINTMENT FORM</h1>
+        
+            <form action="sucess.html" method="post" onsubmit="return validateForm()" id="myForm">
+
+
+                <label><b><i>Name</i></b></label>
+                <input type="text" id="nam" name="nam" placeholder="Your name" required>
+                <label><b><i>Date of Birth</i></b></label>
+                <input type="date" id="dob" name="dob" placeholder="dd/mm/yyyy" required> 
+                <label><b><i>Age</i></b></label>
+                <input type="number" id="age" name="age" placeholder="Your Age" required> 
+                <p><b><i>Gender</i></b></p>
+                    <input type="radio" name="fb"><label>Male</label>
+                    <input type="radio" name="fb"><label>Female</label><br><br>
+                    <label><b><i>Mobile Number</i></b></label>
+                <input type="number" id="num" name="num" placeholder="Your number" required> 
+                <label><b><i>Preferred Appointment time</i></b></label>
+                <input type="time" name="mytime" id="mytime" required>
+                <p><b><i>Appointment Status/Urgency</i></b></p>
+                    <input type="radio" name="fb"><label>Routine Check-up</label>
+                    <input type="radio" name="fb"><label>Non-Urgent Medical Check-up</label>
+                    <input type="radio" name="fb"><label>Urgent Medical Check-up</label>
+                    <input type="radio" name="fb"><label>Surgical Appointment</label>
+                <p><b><i>Appointment Treatment Type</i></b></p>
+                    <input type="checkbox" name="cb" ><label>Cardiovascular Treatment</label>
+                    <input type="checkbox" name="cb" ><label>Neurological Treatment</label>
+                    <input type="checkbox" name="cb" ><label>Optical Treatment</label>
+                    <input type="checkbox" name="cb" ><label>Cosmetic Treatment</label>
+                    <input type="checkbox" name="cb" ><label>Cancer Treatment</label>
+                <p><b><i>Additional Treatment Non-Listed</i></b></p>
+                <div class="br">
+                    <textarea name="message" placeholder="Enter your text" rows="4" cols="156" required ></textarea>
+                </div>
+                <p><b><i>Health Insurance</i></b></p>
+                <div class="br">
+                    <textarea name="message" placeholder="Optional" rows="2" cols="156" required></textarea>
+                </div>
+                <p><b><i>Patient Medical Condition/History</i></b></p>
+                <div class="br">
+                     <textarea name="message" placeholder="Enter your text" rows="5" cols="156" required ></textarea>
+                </div>
+                <p><b><i>Patient Medical Referals</i></b></p>
+                <div class="br">
+                    <textarea name="message"  placeholder="Enter your text" rows="5" cols="156" required></textarea><br>
+                 </div>
+                <br><br>
+                </form>
+            <div class="center">
+                <button onsubmit="return validateForm()" onclick="window.location.href='sucess.html';" type="button" required>CONFIRM APPOINTMENT</button>
+            </div>
+        
+            </body>
+</html>

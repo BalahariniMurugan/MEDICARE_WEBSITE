@@ -1,0 +1,102 @@
+
+
+
+input[type=date]{
+    color:black;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgba(0,0,0,.5);
+  border-radius: 4px;
+
+}
+input[type="time"] { 
+  color:black;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border:  2px solid rgba(0,0,0,.5);
+    border-radius: 4px;
+  
+} 
+
+.br{
+    border: 2px solid rgba(0,0,0,.5);
+  border-radius: 2px;
+}
+body label{
+  color:black;
+  font-family: Candara;
+  font-size: medium;
+}
+body h1{
+    text-align:center;
+    color:black;
+    font-size:40px;
+    font-family:Cascadia Mono Sem;
+
+}
+label,form {
+    width: 80%;
+    margin: 0 auto;
+   
+}
+
+input[type=text] {
+    color:black;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border:  2px solid rgba(0,0,0,.5);
+    border-radius: 4px;
+}
+input[type=number] {
+  color:black;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border:  2px solid rgba(0,0,0,.5);
+  border-radius: 4px;
+}
+
+body b,p{
+    color:black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+  body{
+    background:url("./service.jpg")no-repeat;
+    background-size:cover;
+     }
+.center{
+    position:absolute;
+    top: 180%;
+    left:45%;
+    
+}
+button{
+    padding: 5px 15px 5px;
+    border:none;
+    background-color:#0080ff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color:#fff;
+
+}
+input[type="text"]::-webkit-input-placeholder {
+    color: black;
+  }
+  textarea::-webkit-input-placeholder {
+    color: black;
+  }
+  body b{
+    font-family: Sitka Small Semibold;
+    font-size: larger;
+  }
+  

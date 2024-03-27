@@ -1,0 +1,19 @@
+Customer Satisfaction: 
+Welcome Change:
+Deliver the Working Software
+Collaboration: 
+Motivation: 
+Face-to-face Conversation
+Measure the Progress as per the Working Software: 
+Maintain Constant Pace: 
+Monitoring: 
+Simplicity:
+Self-organized Teams: 
+Review the Work Regularly: 
+
+
+P D D B T  D - SDLC
+
+RA SD I T D M - waterfall
+
+R D C T D F - agile methodology

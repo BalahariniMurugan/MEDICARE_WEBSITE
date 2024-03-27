@@ -1,0 +1,148 @@
+
+body{
+   background:url("back.jpg")no-repeat;
+   background-size: cover;
+     }
+     h4{
+      color:wheat;
+      font-family:Georgia (serif);
+     }
+   
+.image{
+      padding-top:10%;
+     padding-right:17%;
+     padding-left:50px;
+    }
+    
+.box{
+ text-align: center;
+  width:30%;
+  margin-left: 95px;
+      padding-top:1px;
+      padding-bottom: 1px;
+      font-style: italic;
+      border: none;
+      quotes: "\201C" "\201D" "\2018" "\2019";
+      display: block;
+      border:3px solid black;
+      box-sizing: border-box;
+      background: url("./pat.jpeg")no-repeat;
+background-size:cover ;
+}
+ 
+  .box1{
+    text-align: center;
+     width:30%;
+     margin-left: 95px;
+         padding-top:10px;
+         padding-bottom: 1px;
+         font-style: italic;
+         border: none;
+         quotes: "\201C" "\201D" "\2018" "\2019";
+         display: block;
+         border:3px solid black;
+         box-sizing: border-box;
+         background: url("./pat.jpeg")no-repeat;
+   background-size:cover ;
+   }
+   .box2{
+    text-align: center;
+     width:30%;
+     margin-top: 10px;
+     margin-left: 95px;
+         padding-top:1px;
+         padding-bottom: 1px;
+         font-style: italic;
+         border: none;
+         quotes: "\201C" "\201D" "\2018" "\2019";
+         display: block;
+         border:3px solid black;
+         box-sizing: border-box;
+         background: url("./pat.jpeg")no-repeat;
+   background-size:cover ;
+   }
+   .box3{
+    text-align: center;
+     width:30%;
+     margin-top: 10px;
+     margin-left: 95px;
+         padding-top:1px;
+         padding-bottom: 1px;
+         font-style: italic;
+         border: none;
+         quotes: "\201C" "\201D" "\2018" "\2019";
+         display: block;
+         border:3px solid black;
+         box-sizing: border-box;
+         background: url("./pat.jpeg")no-repeat;
+   background-size:cover ;
+   }
+   .box4{
+    text-align: center;
+     width:30%;
+     margin-top: 10px;
+     margin-left: 95px;
+         padding-top:1px;
+         padding-bottom: 1px;
+         font-style: italic;
+         border: none;
+         quotes: "\201C" "\201D" "\2018" "\2019";
+         display: block;
+         border:3px solid black;
+         box-sizing: border-box;
+         background: url("./pat.jpeg")no-repeat;
+   background-size:cover ;
+   }
+   .box5{
+    text-align: center;
+     width:30%;
+     margin-top: 10px;
+     margin-left: 95px;
+         padding-top:1px;
+         padding-bottom: 1px;
+         font-style: italic;
+         border: none;
+         quotes: "\201C" "\201D" "\2018" "\2019";
+         display: block;
+         border:3px solid black;
+         box-sizing: border-box;
+         background: url("./pat.jpeg")no-repeat;
+   background-size:cover ;
+   }
+   .box6{
+    text-align: center;
+     width:30%;
+     margin-top: 10px;
+     margin-left: 95px;
+         padding-top:1px;
+         padding-bottom: 1px;
+         font-style: italic;
+         border: none;
+         quotes: "\201C" "\201D" "\2018" "\2019";
+         display: block;
+         border:3px solid black;
+         box-sizing: border-box;
+         background: url("./pat.jpeg")no-repeat;
+   background-size:cover ;
+   }
+  .container{
+    margin-left: 30px;
+  }
+  .health
+  {
+    margin-top: 65px;
+    margin-left: 150px;
+  }
+  .insurance
+  {
+    margin-top: 25px;
+    margin-left: 85px;
+  }
+  .btn {
+    background-color: DodgerBlue; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
